@@ -722,6 +722,8 @@ v9_user_message_one_hundred_downloads_body = "We hope you're enjoying Video Down
 v9_user_message_one_hundred_downloads_leave_review = "Leave a review"
 v9_user_message_one_hundred_downloads_never_show_again = "Don't ask again"
 
+v9_panel_footer_force_reload = "Force detection"
+
 # History
 
 v9_panel_footer_show_history_tooltip = "Show Download History"
