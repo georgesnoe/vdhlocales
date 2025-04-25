@@ -625,6 +625,8 @@ v9_panel_error_unknown_description = "Purtroppo il componente aggiuntivo ha risc
 v9_panel_error_coapp_failure_title = "Scaricamento fallito"
 v9_panel_error_coapp_failure_description = "Sfortunatamente lo scaricamento di questo file multimediale non è andato a buon fine. Cerchiamo di supportare più siti internet possibile e ci aiuterebbe molto se ci inviassi un resoconto di questo errore (è anonimo!)."
 
+v9_panel_error_coapp_failure_description_no_report = "Purtroppo non siamo riusciti a scaricare quello specifico file multimediale."
+
 # Panel > Footer
 v9_panel_footer_show_in_sidebar_tooltip = "Visualizza nella barra laterale"
 v9_panel_footer_show_in_popup_tooltip = "Mostra come finestra a comparsa"
