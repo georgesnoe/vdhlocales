@@ -7,6 +7,7 @@
 #
 # 2. History of Corsican translation:
 #
+# 	- Updated in 2025 by Patriccollu di Santa Maria è Sichè: Apr. 24th (9.3.7)
 # 	- Updated in 2024 by Patriccollu di Santa Maria è Sichè: Feb. 17th (8.2.0.23a1), June 26th (9.0.2.3a1), Aug. 1st (9.0.2.14a1)
 # 	- Updated in 2023 by Patriccollu di Santa Maria è Sichè: Oct. 4th (8.1.0.0a4) and Dec. 29th (8.1.2.0a2)
 # 	- Updated in 2022 by Patriccollu di Santa Maria è Sichè: Aug. 2nd (7.6.3a5)
@@ -634,10 +635,15 @@ v9_panel_downloading_stop = "Piantà"
 
 # Panel > Error
 
+v9_panel_error_report_button2 = "Signalà"
+v9_panel_error_reported_button = "Signalatu ; vi ringraziemu !"
+
+v9_panel_error_unknown_description = "Per disgrazia, l’estensione hà scuntratu un sbagliu imprevistu. Ci aiuteria assai s’è vo pudiate signalacci stu sbagliu. St’azzione hè anonima !"
+
 v9_panel_error_coapp_failure_title = "Fiascu di u scaricamentu"
-v9_panel_error_coapp_failure_description = "Per disgrazia, ùn era micca pussibule di scaricà stu medià specificu. Pruvemu d’accettà u numeru u più maiò di siti web, dunque, ci aiuteria assai s’è vo pudiate signalacci stu sbagliu (què hè anonimu !)"
-v9_panel_error_coapp_failure_report_button = "Apre un ticchettu"
-v9_panel_error_coapp_failure_copy_report_button = "Cupià i detaglii di u prublema"
+v9_panel_error_coapp_failure_description = "Per disgrazia, ùn si pò scaricà quellu medià specificu. Pruvemu d’accettà u numeru u più maiò di siti web, dunque, ci aiuteria assai s’è vo pudiate signalacci stu sbagliu. St’azzione hè anonima !"
+
+v9_panel_error_coapp_failure_description_no_report = "Per disgrazia, ùn si pò scaricà quellu medià specificu."
 
 # Panel > Footer
 v9_panel_footer_show_in_sidebar_tooltip = "Affissà in a barra laterale"
@@ -648,7 +654,7 @@ v9_panel_footer_clean_all_tooltip = "Caccià da a lista i medià scuperti è sca
 v9_panel_footer_convert_local_tooltip = "Convertisce schedarii lucali"
 
 v9_panel_error_nocoapp_button_install = "Scaricà è installà"
-v9_panel_error_coapp_too_old_button_udpate = "Messe à livellu"
+v9_panel_error_coapp_too_old_button_udpate = "Mette à livellu"
 
 # Setting
 
@@ -668,6 +674,7 @@ v9_settings_variants_clear = "Squassà"
 v9_settings_checkbox_force_inbrowser = "Ùn impiegà micca CoApp s’ella hè pussibule"
 v9_settings_checkbox_notification = "Affissà a nutificazione di fine d’un scaricamentu"
 v9_settings_checkbox_notification_incognito = "Affissà e nutificazioni in modu di navigazione privata"
+v9_settings_checkbox_thumbnail_in_notification = "Affissà a vignetta in e nutificazioni"
 v9_settings_checkbox_forget_on_close = "Viutà a lista di medià quandu l’unghjetta hè chjosa"
 v9_settings_checkbox_view_convert_local = "Affissà u buttone di cunversione di i schedarii lucali"
 v9_settings_checkbox_use_wide_ui = "Aumentà a dimensione di u finestrinu di l’estensione"
@@ -730,6 +737,13 @@ v9_user_message_no_incognito_open_settings = "Attivà i i parametri di u navigat
 v9_yt_bulk_detected = "Scuperta di $1 filmetti nant’à Youtube"
 v9_yt_bulk_detected_trigger = "Principià u scaricamentu da gruppu"
 
+v9_user_message_one_hundred_downloads = "Avete scaricatu 100 filmetti !"
+v9_user_message_one_hundred_downloads_body = "Speremu chì Video DownloadHelper vi piace :-) Chì ne pensate di lascià un bellu cummentu nant’à u situ web di l’estensione "
+v9_user_message_one_hundred_downloads_leave_review = "Lascià un cummentu"
+v9_user_message_one_hundred_downloads_never_show_again = "Ùn mi dumandà più"
+
+v9_panel_footer_force_reload = "Sfurzà a scuperta"
+
 # History
 
 v9_panel_footer_show_history_tooltip = "Affissà a cronolugia di i scaricamenti"
@@ -747,3 +761,14 @@ v9_date_today = "oghje"
 v9_date_yesterday = "eri"
 v9_date_x_days_ago = "$1 ghjorni fà"
 v9_date_long_ago = "tempi fà"
+
+v9_user_message_privacy_policy_title = "Pulitica di cunfidenzialità ; senza bugia, state anonimi"
+v9_user_message_privacy_policy_details = "Detaglii"
+v9_user_message_privacy_policy_decline = "Ricusà"
+v9_user_message_privacy_policy_accept = "Accettà"
+v9_user_message_privacy_policy_details_long = "Leghje a pulitica di cunfidenzialità nant’à addons.mozilla.org"
+v9_user_message_privacy_policy_decline_long = "Continuà senza spartera è solu i scaricamenti basichi"
+v9_user_message_privacy_policy_accept_long = "Continuà cù a spartera CoApp è i scaricamenti cumplessi"
+v9_user_message_privacy_policy_text_1 = "Quandu l’utilizatore richiede un scaricamentu, scarichemu u filmettu direttamente osinnò, per i scaricamenti più cumplessi (M3U8 è MPD), trasmittemu l’indirizzu web è l’intestature HTTP à l’appiecazione nativa di Video DownloadHelper nant’à u vostru urdinatore (l’indirizzu web ùn hè mai mandatu ind’è noi)."
+v9_user_message_privacy_policy_text_2 = "S’è vo ricusate a nostra pulitica di cunfidenzialità, permittemu quantunque di scaricà certi filmetti, ma quelli à u furmatu M3U8 è MPD ùn funziuneranu micca."
+v9_settings_button_reset_privacy = "Reinizià i parametri di cunfidenzialità"
